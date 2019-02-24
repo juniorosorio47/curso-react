@@ -4,16 +4,6 @@ import { NavLink } from 'react-router-dom';
 
 class NavBar extends Component{
 
-    hideSideBar(e){
-        let icon = e.currentTarget
-        let sideBar = document.querySelector('.navSide')
-        let content = document.querySelector('.content')
-
-        icon.classList.toggle('active') 
-        sideBar.classList.toggle('show')
-        content.classList.toggle('span')
-    }
-
     render(){
         return(
             <div>
@@ -22,7 +12,7 @@ class NavBar extends Component{
                         <img id='icon' src={require('../img/logo.png')} alt='Logo'></img>
                         <a href='/'><h1>React.js</h1></a>
                     </div>
-                    <a id='documentacao' target="_blank" rel="noopener noreferrer" href='https://reactjs.org/docs/getting-started.html'><p>Documentação Oficial</p></a>
+                    <a id='documentacao' target="_blank" rel="noopener noreferrer" href='https://reactjs.org/docs/getting-started.html'><p>Documentação Oficial <i style={{fontSize:'12pt', color:'#61DAFB', marginLeft:5}} className='fa fa-external-link-alt'></i></p></a>
                     
                 </nav>
                 <div  className='navSide'>

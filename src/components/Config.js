@@ -33,15 +33,21 @@ class Config extends Component{
                 <code>create-react-app aplicativo</code>
                 <p>A instalação dos pacotes demora um pouco, depende da velocidade da sua internet.</p>
                 <p>Serão criados os arquivos na pasta informada e você terá uma pasta parecida com essa:</p>
-                <p><img style={{borderRadius:10,width:'40%', boxShadow: '5px 5px 15px 0px'}} src={require('../img/print1.png')} alt='print1'/></p>
+                <p><img style={{borderRadius:10,width:'20%', boxShadow: '5px 5px 15px 0px'}} src={require('../img/print1.png')} alt='print1'/></p>
                 <p>Para iniciar o servidor digite o seguinte comando com o terminal na pasta do aplicativo:</p>
                 <code>npm start</code>
                 <p>O servidor será iniciado e abrirá automaticamente à página do aplicativo no servidor "localhost:3000".</p>
                 <p><img style={{borderRadius:10,width:'40%', boxShadow: '5px 5px 15px 0px'}} src={require('../img/print2.png')} alt='print2'/></p>
                 <h2>Testando a aplicação</h2>
-                <p>A página inicial no qual foi aberta a aplicação está dizendo para modificarmos o arquivo 'App.js' que está na pasta 'src'.</p>
-                <p><img style={{borderRadius:10,width:'40%', boxShadow: '5px 5px 15px 0px'}} src={require('../img/print2.png')} alt='print2'/></p>
-                
+                <p>Podemos testar a aplicação base modificando o arquivo 'App.js' que está na pasta 'src'.</p>
+                <p><img style={{borderRadius:10,width:'40%', boxShadow: '5px 5px 15px 0px'}} src={require('../img/print3.png')} alt='print3'/></p>
+                <p>Modificando a linha selecionada que possui a tag P, como no exemplo abaixo:</p>
+                <p><img style={{borderRadius:10,width:'40%', boxShadow: '5px 5px 15px 0px'}} src={require('../img/print4.png')} alt='print4'/></p>
+                <p>Após salvar a modificação do arquivo, a página que foi aberta irá atualizar automaticamente:</p>
+                <p><img style={{borderRadius:10,width:'40%', boxShadow: '5px 5px 15px 0px'}} src={require('../img/print5.png')} alt='print5'/></p>
+
+
+
             </div>
         )
     }
