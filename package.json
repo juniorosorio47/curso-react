@@ -1,6 +1,9 @@
 {
   "name": "react-course",
+  "productName": "Tutorial React",
+  "description": "Aplicativo de tutorial para aprender o básico de React JS.",
   "version": "0.1.0",
+  "main": "main.js",
   "private": true,
   "dependencies": {
     "react": "^16.8.2",
@@ -22,5 +25,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {}
 }

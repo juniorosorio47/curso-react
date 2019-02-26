@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION } from 'constants';
 
 class Home extends Component{
 
     render(){
         return( 
             <div className='content'>
-                <h1>Visão geral</h1>
+                <h1 className='titulo'>Visão geral</h1>
 
                 <p>React é uma biblioteca JavaScript para construir componentes UI (User Interface) reutilizáveis. A seguir a definição da documentação oficial:</p>
                 <p>React é uma biblioteca UI's combináveis. Isso encoraja a criação de componentes UI reutilizáveis, os quais apresentam dados que podem ter mudanças ao longo do tempo. Muitas pessoas utilizam React como o V de MVC (Model View Controller). React resume o DOM para você, oferecendo um modelo de programação simples para uma performance melhor. React pode também ser renderizado no servidor usando Node, e pode dar vida à aplicativos nativos com React Native. React implementa um fluxo de dados unidirecional, o que reduz o boilerplate (repetição de código) e é mais fácil de entender do que o código tradicional.</p>
