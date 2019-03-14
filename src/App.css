@@ -14,7 +14,7 @@ code {
 }
 
 *{
-  font-weight: 450
+  font-weight: 350
 }
 
 a{
@@ -35,10 +35,7 @@ strong{
 
 .titulo{
   padding: 10px;
-  background: rgba(40, 44, 52, 0.822);
-  border-radius: 8px;
-  box-shadow: 1px 1px 5px 0px #61DAFB;
-  color: white;
+  border-bottom: solid 2px #61DAFB;
 }
 
 h2{
@@ -115,6 +112,11 @@ h2{
 #documentacao:hover{
   transition: .3s;
   background: #61DAFB;
+}
+
+#documentacao:hover #iconDoc{
+  transition: .3s;
+  color: white;
 }
 
 .navSide{

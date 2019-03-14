@@ -7,6 +7,7 @@ class Jsx extends Component{
         return(
             <div className='content'>
                 <h1>JSX</h1>
+                
             </div>
         )
     }
